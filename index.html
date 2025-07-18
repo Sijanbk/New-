@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Pattern Search Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>String Pattern Search Visualizer</h1>
+    <form id="search-form">
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text">
+        <br><br>
+        <label for="pattern">Pattern:</label>
+        <input type="text" id="pattern" name="pattern">
+        <br><br>
+        <button id="kmp-btn">KMP Search</button>
+        <button id="rabin-karp-btn">Rabin-Karp Search</button>
+    </form>
+    <div id="result"></div>
+    <div id="visualization"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
